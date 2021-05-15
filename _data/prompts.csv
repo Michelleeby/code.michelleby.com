@@ -1,0 +1,12 @@
+prompt_id,prompt_title,prompt_question,prompt_input,prompt_output,prompt_source
+prompt_two-sum,Two Sum,"Given an array of integers and a target integer, return the indices of the two numbers that total the target when summed. Assume each input has exactly one solution, and that each element is used only once.","ints = [2, 7, 9, 15], target = 11","[0, 2]",https://leetcode.com/problems/two-sum/
+prompt_max-difference,Max Difference,"Given an array of integers, find and return the maximum difference between the ith number and another number that follows.","ints = [15, 3, 7, 1, 6, 8]",7,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+prompt_count-islands,Count Islands,"Given a 2D binary matrix where '1' is land and '0' is water, return the total number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.","matrix = [ 
+[""1"", ""1"", ""1"", ""0"", ""1""], 
+[""1"", ""1"", ""0"", ""0"", ""0""], 
+[""1"", ""1"", ""1"", ""0"", ""0""] ]",2,https://leetcode.com/problems/number-of-islands/
+prompt_subsequences,Subsequences,"Given two strings s and t, return the number of distinct subsequences of s which equals t.","s = ""legeegg"", t = ""leg""",7,https://leetcode.com/problems/distinct-subsequences/
+prompt_subsets,Subsets,"Given an integer array of unique elements, return all possible unique subsets as an array. Return the solution in any order.","ints = [0, 1, 2]","
+[ [0, 1, 2], [0, 1], [0, 2], [0], [1, 2], [1], [2], [] ]
+",https://leetcode.com/problems/subsets/
+prompt_k-closest,K Closest,"Given an array of points, where each point is a vector [x,y], and a number k, return the kth closest points to the origin.","points = [ [1, 0], [2, 0], [3, 0] ], k = 1","[ [1, 0] ]",https://leetcode.com/problems/k-closest-points-to-origin/
