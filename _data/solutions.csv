@@ -1,8 +1,0 @@
-solution_id,prompt_id,solution_type
-two-sum_brute-force,prompt_two-sum,Brute Force
-max-difference_brute-force,prompt_max-difference,Brute Force
-count-islands_brute-force,prompt_count-islands,Brute Force
-subsequences_recursive,prompt_subsequences,Recursive
-subsets_native-functions,prompt_subsets,Native Functions
-subsets_recursive,prompt_subsets,Recursive
-k-closest_native-functions,prompt_k-closest,Native Functions
