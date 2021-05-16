@@ -1,0 +1,14 @@
+_about
+_code_files
+_data
+_docs
+_includes
+_layouts
+_plugins
+assets
+404.html
+Gemfile
+Gemfile.lock
+README.md
+index.html
+.jekyll-cache
