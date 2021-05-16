@@ -1,0 +1,8 @@
+solution_id,file_language,file_extension
+two-sum_brute-force,Java,.java
+max-difference_brute-force,Java,.java
+count-islands_brute-force,Java,.java
+subsequences_recursive,JavaScript,.js
+subsets_recursive,JavaScript,.js
+subsets_native-functions,Ruby,.rb
+k-closest_native-functions,JavaScript,.js
