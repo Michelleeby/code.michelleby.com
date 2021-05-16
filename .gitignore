@@ -11,4 +11,7 @@ Gemfile
 Gemfile.lock
 README.md
 index.html
+.sass-cache
 .jekyll-cache
+.jekyll-metadata
+vendor
