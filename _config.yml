@@ -23,8 +23,7 @@ defaults:
       path: "_code_files"
     values:
       code_file: true
-logo: "assets/img/logo.png"
-icon_dir: "assets/img/icons/"
+logo: "/assets/img/logo.png"
 collections:
   about:
     order: 
