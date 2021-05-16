@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Michelleby’s Code Sandbox | A place to store and to share solutions to common algorith problems.</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Michelleby’s Code Sandbox" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A place to store and to share solutions to common algorith problems." />
+<meta property="og:description" content="A place to store and to share solutions to common algorith problems." />
+<link rel="canonical" href="https://code.michelleby.com/404.html" />
+<meta property="og:url" content="https://code.michelleby.com/404.html" />
+<meta property="og:site_name" content="Michelleby’s Code Sandbox" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Michelleby’s Code Sandbox" />
+<script type="application/ld+json">
+{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://code.michelleby.com/assets/img/logo.png"}},"url":"https://code.michelleby.com/404.html","headline":"Michelleby’s Code Sandbox","description":"A place to store and to share solutions to common algorith problems.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://code.michelleby.com/feed.xml" title="Michelleby's Code Sandbox" /></head><body><header class="page-header">
+  <img class="page-header site-logo" src="assets/img/logo.png" width="150px" height="139px" alt="">
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+      </div>
+    </main><footer>
+  <a rel="me" href="https://github.com/Michelleeby" title="Michelleeby"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg>
+  <span class="username">Michelleeby</span>
+  </a>
+</footer><script>
+// Toggle Show Input/Output
+function toggleShowInputOutput() {
+  // Equally sized element arrays
+  let buttons = document.querySelectorAll(".code-post-sample.sample-header");
+  let arrows = document.querySelectorAll(".code-post-sample.sample-header .arrow");
+  let samples = document.querySelectorAll(".code-post.code-post-sample");
+
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function(){
+      arrows[i].classList.toggle("up");
+      samples[i].querySelector(".sample-code").classList.toggle("element--closed");
+    });
+  }
+}
+function toggleActiveSolution() {
+  let prompts = document.querySelectorAll("article.code-post");
+  for (const prompt of prompts) {
+    let solutions = prompt.querySelectorAll(".code-post.code-post-solutions > li");
+    let toggles = prompt.querySelectorAll(".solution-type > button");
+
+    for (let i = 0; i < solutions.length; i++) {
+      toggles[i].addEventListener("click", function(){
+        solutions.forEach(function(solution){
+          solution.classList.toggle("element--closed", true);
+        });
+        toggles.forEach(function(t){
+          t.classList.toggle("solution--active", false);
+        });
+        solutions[i].classList.toggle("element--closed", false);
+        toggles[i].classList.toggle("solution--active");
+      });
+    }
+  }
+}
+
+toggleActiveSolution();
+toggleShowInputOutput();
+</script>
+</body>
+</html>
