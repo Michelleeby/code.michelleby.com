@@ -5,10 +5,12 @@
   {%- assign icon = section.icon | append: ".svg" | prepend: "assets/img/icons/" -%}
   <div class="about-section-topic">
     <img src="{{ icon | prepend: '/' }}" width="{{ icon | image_size: 'w' }}" height="{{ icon | image_size: 'h' }}" alt="{{ section.icon }} symbol">
+
     <div class="about-section-topic-content">
       {{ section.content }}
     </div>
   </div>
+
   {%- assign arrow = "assets/img/icons/" | append: "down_arrow.svg"  -%}
   {%- if forloop.last != true -%}
   <div class="about-section-arrow">
