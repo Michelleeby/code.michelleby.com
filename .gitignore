@@ -1,6 +1,7 @@
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.gitsecret/keys/random_seed
 vendor
 _site/
 _config.yml
